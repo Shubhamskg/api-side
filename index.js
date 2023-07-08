@@ -15,7 +15,7 @@ app.use(passport.session());
 
 app.use(
   cors({
-    origin: "https://client0.netlify.app/",
+    origin: "https://client0.netlify.app/" || "https://api2-3bx7.onrender.com",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
